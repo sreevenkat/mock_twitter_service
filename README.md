@@ -4,6 +4,18 @@
 
 Run `make build` to get the app running to localhost:8000
 
+There are 2 users created by default:
+
+User 1 
+  
+  username: sree-venkat
+  password: hello
+  
+User 2 
+
+  username: siva-shankar
+  password: hello
+
 Api:
 
 POST /login/
