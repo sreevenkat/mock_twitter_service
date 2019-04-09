@@ -15,8 +15,7 @@ class Command(BaseCommand):
         user.save()
 
         user1 = User(username="siva-shankar", first_name="SivaShankar", 
-                    last_name="Ramesh", email="appooti@mac.com", 
-                    is_superuser=True)
+                    last_name="Ramesh", email="appooti@mac.com")
         user1.set_password("hello")
         user1.save()
 
